@@ -19,6 +19,7 @@ public class Base_Test implements Framework_constant
 	{
 
 		System.setProperty(chrome_key, chrome_value);
+		//to launch the browser
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
